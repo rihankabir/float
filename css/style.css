@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+box-sizing: border-box;
+}
+.header{
+
+	height: 100px;
+	padding: 10px 20px;
+
+	background-color: gray;
+}
+.nav{
+	position: relative;
+	list-style: none;
+		align-items: center;
+	text-align: center;
+	text-decoration: none;
+	
+}
+
+
+
+li a{
+		text-decoration: none;
+	color: yellow;
+
+}
+li a:hover{
+	color: orangered;
+}
+
+.wrapper{
+	background-image: url('../images/pic6.jpg');
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover
+ 
+  
+  
+}
+.box1{
+	float: left;
+
+		background-color: black;
+}
+.box2{
+	float: left;
+	display: inline-block;
+	background-color: black;
+
+}
+.box3{
+	float: left;
+	background-color: black;
+}
+.box1,.box2,.box3{
+	display: inline-block;
+	text-align: center;
+	color: white;
+	width: 32%;
+}
+.footer{
+	height: 100px;
+	background-color: black;
+}
+.box img{
+	border-radius: 10px;
+	height: auto;
+	width: 100%;
+
+}
+.wrapper h1{
+	float: left;
+	overflow: hidden;
+	color: navy;
+	text-align: right;
+}
+.wrapper p{
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+.pixo{
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.align{
+float: left;
+width: 32%;
+display: inline-block;
+align-items: center;
+}
+.align img{
+	height: auto;
+	width: 100%;
+	border-radius: 20px;
+}
+
+.wrapper span{
+	color: orangered;
+	font-size: 40px;
+}
+.text{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.content h1{
+	text-align: center;
+	color: orangered;
+}
+.content{
+	background-image: url('../images/pic7.jpg');
+	background-size: cover;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+.earth{
+	color: orangered;
+	font-size: 40px;
+}
+.content p{
+	color: white;
+	font-size: 20px;
+}
+.demo{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.content img{
+	height: 230px;
+
+}
+.pen{
+	float: right;
+}
+.butter p{
+	text-align: center;
+}
+.butter{
+	float: left;
+	  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+  margin-right: 1%;
+}
+.butter img{
+	gap: 20px;
+	 width: 100%;
+  height: auto
+}
+.footer p{
+	text-align: center;
+	color: white;
+	padding-top: 40px;
+}
+.video{
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.plain img{
+	width: 50%;
+float: right;
+}
+.plain{
+	overflow: hidden;
+}
+@media (max-width: 768px) {
+  /* Header */
+  .header {
+    height: auto;
+    text-align: center;
+  }
+   
+
+  .nav {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .nav li {
+    display: inline-block;
+    margin: 5px 10px;
+  }
+
+  
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Video */
+  .video iframe {
+    width: 100%;
+    height: auto;
+  }
+}
+
